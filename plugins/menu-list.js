@@ -108,7 +108,7 @@ ${'```%npmdesc```'}
   'anime': '*MENU ANIME*',
   }
   if (teks == 'nsfw') tags = {
-  'nsfw': '*MENU NSFW*',
+  'nsfw': '*Ingat Puasa Ngab*',
   }
   if (teks == 'sticker') tags = {
   'sticker': '*MENU CONVERT*',
@@ -271,7 +271,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
 │⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 │⬡ *スパムしないでください*
 ╰────────────────⬣`,
-            buttonText: 'LIST MENU',
+            buttonText: 'LIST MENU BOT',
             listType: 1,
             footerText: "𝚂𝙸𝙻𝙰𝙷𝙺𝙰𝙽 𝙿𝙸𝙻𝙸𝙷 𝙼𝙴𝙽𝚄 𝙳𝙸 𝙱𝙰𝚆𝙰𝙷",
             mtype: 'listMessage',
@@ -302,7 +302,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
                   "rowId": `${_p}? anime`
                 }, {
                   "title": "NSFW MENU",
-                  "description": "Menampilkan Menu Nsfw",
+                  "description": "Ingat Puasa Ngab",
                   "rowId": `${_p}? nsfw`
                 }, {
                   "title": "STICKER & CONVERTER",
@@ -466,7 +466,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
            },
                {
              quickReplyButton: {
-               displayText: 'Back To Menu',
+               displayText: 'KEMBALI KE MENU',
                id: '.menu',
              }
 
